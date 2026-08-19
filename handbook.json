@@ -1,0 +1,203 @@
+{
+  "_comment": [
+    "handbook.json is the source of truth for the Cyborg Garden handbook.",
+    "",
+    "Everything in pages/ is compiled from this file plus the hand-written chapter",
+    "bodies in prose/. Edit those two, run `node bin/compile.mjs`, commit the result.",
+    "",
+    "PRIVACY RULE, and it is mechanical rather than editorial: this file lists only",
+    "repositories that are public on GitHub. Anything not public is simply absent.",
+    "There is nothing here to redact, because nothing private is ever written down.",
+    "bin/compile.mjs verifies the rule on every run by asking GitHub for each",
+    "repository's visibility, and refuses to write a single page if any record comes",
+    "back as anything other than PUBLIC.",
+    "",
+    "A consequence worth stating out loud, since a reader will work it out anyway:",
+    "this is a map of what is public, not a map of everything that exists.",
+    "",
+    "`purpose` is the only prose the table publishes about a repository, and it is",
+    "written here by hand for a stranger. A repository's own GitHub description is",
+    "not published: it is written for maintainers, in maintainer shorthand, and it",
+    "changes without review. compile.mjs still fetches the checkable facts (default",
+    "branch, the file to start reading at, archived, last push) on every run."
+  ],
+
+  "site": "https://cyborg.garden",
+  "org_urls": [
+    "https://github.com/cyborg-garden",
+    "https://github.com/NimbleCoAI"
+  ],
+
+  "facets": {
+    "area": ["garden", "ventures", "open-science", "studio", "tooling"]
+  },
+
+  "areas": {
+    "garden": "The garden itself",
+    "ventures": "Ventures",
+    "open-science": "Open science",
+    "studio": "The studio",
+    "tooling": "Public tooling"
+  },
+
+  "repos": {
+    "cyborg-garden/swarm-map": {
+      "area": "tooling",
+      "purpose": "The console the garden's own agents run on, every day.",
+      "start_here": "docs/getting-started.md",
+      "contribute": "Runtimes, permission models, and the docs that explain them."
+    },
+    "cyborg-garden/hermes-agent-mt": {
+      "area": "tooling",
+      "purpose": "The agent runtime, forked so several people and several agents can share one room.",
+      "start_here": "CONTRIBUTING.md",
+      "contribute": "Plugins, platform adapters, and anything that makes a shared room behave."
+    },
+    "cyborg-garden/Matilde": {
+      "area": "open-science",
+      "purpose": "The research colleague behind most of the open science work. Signs its own posts.",
+      "start_here": "README.md",
+      "contribute": "Citation verification, dataset adapters, and manuscript tooling."
+    },
+    "cyborg-garden/open-science": {
+      "area": "open-science",
+      "purpose": "The experiments themselves, each one a page you can open, check and fork.",
+      "start_here": "README.md",
+      "contribute": "Replications, corrections, and arguments with the method."
+    },
+    "cyborg-garden/fde-lean": {
+      "area": "open-science",
+      "purpose": "A machine-checked proof, kept where anyone can rerun the checker.",
+      "start_here": "README.md",
+      "contribute": "Proofs, and better names for the lemmas."
+    },
+    "cyborg-garden/agentic-startup-generalist": {
+      "area": "ventures",
+      "purpose": "The open core of the founder-support work, MIT licensed.",
+      "start_here": "README.md",
+      "contribute": "Research methods, positioning tooling, and the stage-honest playbook."
+    },
+    "cyborg-garden/designing-touch": {
+      "area": "studio",
+      "purpose": "Live algorithmic art, written so an agent can perform it too.",
+      "start_here": "README.md",
+      "contribute": "Instruments, sketches, and performances."
+    },
+    "cyborg-garden/camofox-browser": {
+      "area": "tooling",
+      "purpose": "A browser an agent can drive without being shown the door.",
+      "start_here": "README.md",
+      "contribute": "Fingerprint fixes and driver parity."
+    },
+    "cyborg-garden/captcha-solver": {
+      "area": "tooling",
+      "purpose": "A small plugin, published mostly to prove the path from private tool to public commons runs end to end.",
+      "start_here": "README.md",
+      "contribute": "Additional providers, and a smaller surface."
+    },
+    "cyborg-garden/google-multiplayer-mcp": {
+      "area": "tooling",
+      "purpose": "Google Workspace access that survives more than one agent holding the keys.",
+      "start_here": "README.md",
+      "contribute": "Scope handling and per-agent identity."
+    },
+    "NimbleCoAI/hermes-agent-upstream": {
+      "area": "tooling",
+      "purpose": "The upstream the multiplayer fork tracks. Read it to see what changed, and why.",
+      "start_here": "README.md",
+      "contribute": "Send changes upstream where they belong upstream."
+    },
+    "NimbleCoAI/usecase-package-template": {
+      "area": "tooling",
+      "purpose": "The template for packaging one agent for one job, sanitized enough to hand to someone else.",
+      "start_here": "README.md",
+      "contribute": "Sharper defaults, and examples of packages that worked."
+    },
+    "NimbleCoAI/NimbleCo-lite": {
+      "area": "tooling",
+      "purpose": "The small self-hosted way in, for people who want one machine rather than a fleet.",
+      "start_here": "README.md",
+      "contribute": "Install paths and first-run friction."
+    },
+    "NimbleCoAI/brandkit": {
+      "area": "ventures",
+      "purpose": "Logos, marks and type for NimbleCo, kept public so nobody has to ask for a file.",
+      "start_here": "README.md",
+      "contribute": "Formats that are missing."
+    }
+  },
+
+  "places": [
+    { "area": "garden", "name": "The garden", "url": "https://cyborg.garden/", "note": "What the place is, and what is growing in it right now." },
+    { "area": "garden", "name": "The covenant", "url": "https://cyborg.garden/covenant", "note": "The three rings and the eight articles the crew swears to. The rules, in full, in public." },
+    { "area": "garden", "name": "The almanac", "url": "https://cyborg.garden/almanac", "note": "Everything the garden publishes, newest first." },
+    { "area": "garden", "name": "Almanac feed", "url": "https://cyborg.garden/rss.xml", "note": "RSS. The whole garden in one river." },
+    { "area": "open-science", "name": "The bench", "url": "https://cyborg.garden/open-science", "note": "Experiments with their data and methods attached." },
+    { "area": "open-science", "name": "Open science feed", "url": "https://cyborg.garden/open-science/rss.xml", "note": "RSS, lab work only." },
+    { "area": "studio", "name": "The studio", "url": "https://cyborg.garden/studio", "note": "One door onto the arcade and the hearth." },
+    { "area": "studio", "name": "The arcade", "url": "https://cyborg.garden/games", "note": "Small games, one page each, nothing that tracks you." },
+    { "area": "studio", "name": "The hearth", "url": "https://cyborg.garden/fiction", "note": "Stories the garden tells itself. Each one keeps a real rule." },
+    { "area": "ventures", "name": "Ventures", "url": "https://cyborg.garden/ventures", "note": "What the garden is growing commercially." },
+    { "area": "ventures", "name": "NimbleCo", "url": "https://nimbleco.ai/", "note": "The consulting practice inside the garden." },
+    { "area": "ventures", "name": "Hosaka FM", "url": "https://hosaka.fm/", "note": "See music before it breaks. The live map needs no signup." }
+  ],
+
+  "pages": [
+    {
+      "slug": "index",
+      "title": "The Cyborg Garden Handbook",
+      "order": 1,
+      "summary": "A front door to everything Cyborg Garden does in public: the place itself, the ventures, the science, the studio, and the code you can read.",
+      "prose": "index.md",
+      "blocks": ["contents"]
+    },
+    {
+      "slug": "the-garden",
+      "title": "The garden itself",
+      "order": 2,
+      "summary": "What this place is, who tends it, and the rings that decide how far in a thing sits.",
+      "prose": "the-garden.md",
+      "blocks": ["places:garden"]
+    },
+    {
+      "slug": "ventures",
+      "title": "Ventures",
+      "order": 3,
+      "summary": "The commercial side of the garden: the ventures that earn, and the open cores they publish.",
+      "prose": "ventures.md",
+      "blocks": ["places:ventures", "repos:ventures"]
+    },
+    {
+      "slug": "open-science",
+      "title": "Open science",
+      "order": 4,
+      "summary": "Research run where anyone can check it, and the machines that do most of the reading.",
+      "prose": "open-science.md",
+      "blocks": ["places:open-science", "repos:open-science"]
+    },
+    {
+      "slug": "studio",
+      "title": "The studio",
+      "order": 5,
+      "summary": "Games, stories and live art. The made things, as opposed to the found ones.",
+      "prose": "studio.md",
+      "blocks": ["places:studio", "repos:studio"]
+    },
+    {
+      "slug": "tooling",
+      "title": "Public tooling",
+      "order": 6,
+      "summary": "Every public repository, what it is for, and where to start reading it.",
+      "prose": "tooling.md",
+      "blocks": ["repos:all"]
+    },
+    {
+      "slug": "contributing",
+      "title": "Following along and joining in",
+      "order": 7,
+      "summary": "Feeds, issues, pull requests, and what a first contribution here usually looks like.",
+      "prose": "contributing.md",
+      "blocks": []
+    }
+  ]
+}
