@@ -2,7 +2,7 @@
 title: "Open science"
 order: 4
 summary: "Research run where anyone can check it, and the machines that do most of the reading."
-updated: 2026-08-18
+updated: 2026-08-24
 ---
 # Open science
 

@@ -6,7 +6,7 @@
     "max_age_days is how long these visibility answers may be published for. Past",
     "it, compile.mjs refuses to write pages from this file without --allow-stale."
   ],
-  "fetched": "2026-08-18",
+  "fetched": "2026-08-24",
   "max_age_days": 10,
   "repos": {
     "cyborg-garden/swarm-map": {
@@ -15,7 +15,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimbleco.ai",
-      "pushed": "2026-08-12",
+      "pushed": "2026-08-24",
       "readme": "README.md",
       "startHere": "docs/getting-started.md"
     },
@@ -25,7 +25,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimbleco.ai",
-      "pushed": "2026-08-17",
+      "pushed": "2026-08-24",
       "readme": "README.md",
       "startHere": "CONTRIBUTING.md"
     },
@@ -75,7 +75,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": null,
-      "pushed": "2026-08-16",
+      "pushed": "2026-08-24",
       "readme": "README.md",
       "startHere": "README.md"
     },
@@ -117,7 +117,7 @@
       "homepage": "https://hermes-agent.nousresearch.com",
       "pushed": "2026-07-19",
       "readme": "README.md",
-      "startHere": "README.md"
+      "startHere": null
     },
     "NimbleCoAI/usecase-package-template": {
       "visibility": "PUBLIC",

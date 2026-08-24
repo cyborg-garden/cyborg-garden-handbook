@@ -2,7 +2,7 @@
 title: "The studio"
 order: 5
 summary: "Games, stories and live art. The made things, as opposed to the found ones."
-updated: 2026-08-18
+updated: 2026-08-24
 ---
 # The studio
 
@@ -53,7 +53,7 @@ in a story first.
 
 | Repository | Why it exists | Start here | Last touched |
 |---|---|---|---|
-| [cyborg-garden/designing-touch](https://github.com/cyborg-garden/designing-touch) | Live algorithmic art, written so an agent can perform it too. | [README.md](https://github.com/cyborg-garden/designing-touch/blob/main/README.md) | 2026-08-16 |
+| [cyborg-garden/designing-touch](https://github.com/cyborg-garden/designing-touch) | Live algorithmic art, written so an agent can perform it too. | [README.md](https://github.com/cyborg-garden/designing-touch/blob/main/README.md) | 2026-08-24 |
 
 ---
 
