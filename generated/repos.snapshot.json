@@ -6,7 +6,7 @@
     "max_age_days is how long these visibility answers may be published for. Past",
     "it, compile.mjs refuses to write pages from this file without --allow-stale."
   ],
-  "fetched": "2026-09-14",
+  "fetched": "2026-09-21",
   "max_age_days": 10,
   "repos": {
     "cyborg-garden/swarm-map": {
@@ -45,7 +45,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimblecoorg.github.io/open-science/",
-      "pushed": "2026-09-14",
+      "pushed": "2026-09-19",
       "readme": "README.md",
       "startHere": "README.md"
     },

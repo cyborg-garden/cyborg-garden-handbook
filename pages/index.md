@@ -2,7 +2,7 @@
 title: "The Cyborg Garden Handbook"
 order: 1
 summary: "A front door to everything Cyborg Garden does in public: the place itself, the ventures, the science, the studio, and the code you can read."
-updated: 2026-09-14
+updated: 2026-09-21
 ---
 # The Cyborg Garden Handbook
 

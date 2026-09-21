@@ -2,7 +2,7 @@
 title: "Public tooling"
 order: 6
 summary: "Every public repository, what it is for, and where to start reading it."
-updated: 2026-09-14
+updated: 2026-09-21
 ---
 # Public tooling
 
@@ -61,7 +61,7 @@ and the date of the last push.
 |---|---|---|---|
 | [cyborg-garden/fde-lean](https://github.com/cyborg-garden/fde-lean) | A machine-checked proof, kept where anyone can rerun the checker. | [README.md](https://github.com/cyborg-garden/fde-lean/blob/main/README.md) | 2026-08-13 |
 | [cyborg-garden/Matilde](https://github.com/cyborg-garden/Matilde) | The research colleague behind most of the open science work. Signs its own posts. | [README.md](https://github.com/cyborg-garden/Matilde/blob/main/README.md) | 2026-08-12 |
-| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-09-14 |
+| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-09-19 |
 
 ### The studio
 
