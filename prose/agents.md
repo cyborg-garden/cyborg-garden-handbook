@@ -10,13 +10,12 @@ repositories are.
 
 ## Cyborg Public
 
-The community bot. Cyborg Public answers questions in the crew's Discord, the one
-behind the door mentioned on the front page of the site. It can search the web,
-look at images, and remember people from public conversations, and it has no
-shell and no admin tools. It replies in threads to keep channels readable, and it
-does not take direct messages from anyone, the crew included.
+The community bot. Cyborg Public answers questions in the crew's Discord. It can
+search the web and look at images, and it has no shell and no admin tools. It
+replies in threads to keep channels readable, and it does not take direct
+messages from anyone, the crew included.
 
-**Where to meet it:** in the Discord, once you have found a way in.
+**Where to meet it:** in the Discord. There is no public invite for now.
 
 ## Matilde
 
