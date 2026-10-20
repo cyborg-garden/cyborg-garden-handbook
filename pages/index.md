@@ -68,6 +68,10 @@ page that never contains private material cannot leak it.
 
 - **[The garden itself](./the-garden.md)**  
   What this place is, who tends it, and the rings that decide how far in a thing sits.
+- **[How the Alembic works](./the-alembic.md)**  
+  The sanitise-and-promote path that moves work from the Secret Garden out to the Commons, and the gate the agent repositories run on every pull request.
+- **[The agents of the garden](./agents.md)**  
+  The agents whose work is public: what each one is for, and where you can meet it.
 - **[Ventures](./ventures.md)**  
   The commercial side of the garden: the ventures that earn, and the open cores they publish.
 - **[Open science](./open-science.md)**  

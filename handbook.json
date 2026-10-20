@@ -160,9 +160,25 @@
       "blocks": ["places:garden"]
     },
     {
+      "slug": "the-alembic",
+      "title": "How the Alembic works",
+      "order": 3,
+      "summary": "The sanitise-and-promote path that moves work from the Secret Garden out to the Commons, and the gate the agent repositories run on every pull request.",
+      "prose": "the-alembic.md",
+      "blocks": []
+    },
+    {
+      "slug": "agents",
+      "title": "The agents of the garden",
+      "order": 4,
+      "summary": "The agents whose work is public: what each one is for, and where you can meet it.",
+      "prose": "agents.md",
+      "blocks": []
+    },
+    {
       "slug": "ventures",
       "title": "Ventures",
-      "order": 3,
+      "order": 5,
       "summary": "The commercial side of the garden: the ventures that earn, and the open cores they publish.",
       "prose": "ventures.md",
       "blocks": ["places:ventures", "repos:ventures"]
@@ -170,7 +186,7 @@
     {
       "slug": "open-science",
       "title": "Open science",
-      "order": 4,
+      "order": 6,
       "summary": "Research run where anyone can check it, and the machines that do most of the reading.",
       "prose": "open-science.md",
       "blocks": ["places:open-science", "repos:open-science"]
@@ -178,7 +194,7 @@
     {
       "slug": "studio",
       "title": "The studio",
-      "order": 5,
+      "order": 7,
       "summary": "Games, stories and live art. The made things, as opposed to the found ones.",
       "prose": "studio.md",
       "blocks": ["places:studio", "repos:studio"]
@@ -186,7 +202,7 @@
     {
       "slug": "tooling",
       "title": "Public tooling",
-      "order": 6,
+      "order": 8,
       "summary": "Every public repository, what it is for, and where to start reading it.",
       "prose": "tooling.md",
       "blocks": ["repos:all"]
@@ -194,7 +210,7 @@
     {
       "slug": "contributing",
       "title": "Following along and joining in",
-      "order": 7,
+      "order": 9,
       "summary": "Feeds, issues, pull requests, and what a first contribution here usually looks like.",
       "prose": "contributing.md",
       "blocks": []

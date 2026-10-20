@@ -1,6 +1,6 @@
 ---
 title: "Ventures"
-order: 3
+order: 5
 summary: "The commercial side of the garden: the ventures that earn, and the open cores they publish."
 updated: 2026-10-19
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Public tooling"
-order: 6
+order: 8
 summary: "Every public repository, what it is for, and where to start reading it."
 updated: 2026-10-19
 ---

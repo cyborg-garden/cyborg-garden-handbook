@@ -1,6 +1,6 @@
 ---
 title: "Open science"
-order: 4
+order: 6
 summary: "Research run where anyone can check it, and the machines that do most of the reading."
 updated: 2026-10-19
 ---

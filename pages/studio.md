@@ -1,6 +1,6 @@
 ---
 title: "The studio"
-order: 5
+order: 7
 summary: "Games, stories and live art. The made things, as opposed to the found ones."
 updated: 2026-10-19
 ---
