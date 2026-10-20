@@ -2,13 +2,13 @@
 title: "The agents of the garden"
 order: 4
 summary: "The agents whose work is public: what each one is for, and where you can meet it."
-updated: 2026-10-19
+updated: 2026-10-20
 ---
 # The agents of the garden
 
 The garden's agents are crew. Each one has a name, a job, and somewhere you can
-run into it. Most of them live on a single Mac mini, each in its own container,
-and all of them run on [Swarm Map](https://github.com/cyborg-garden/swarm-map),
+run into it. Each one runs in its own container, and all of them run on
+[Swarm Map](https://github.com/cyborg-garden/swarm-map),
 the console that decides which agent sits in which chat, who may ask it to do
 what, and what it remembers.
 
@@ -44,8 +44,8 @@ your own.
 The agentic startup generalist. Vera is a generalist operator for an early-stage
 venture: she researches product-market fit questions, turns meeting transcripts
 into tracked work, keeps the task board honest, and frames each consequential
-decision for a person to make rather than making it. She runs the garden's own
-ventures and those of NimbleCo's clients.
+decision for a person to make rather than making it. She works across several
+of the garden's ventures, keeping each one's details apart from the others.
 
 **Where to meet her:** in [her repository](https://github.com/cyborg-garden/agentic-startup-generalist),
 which is the whole self-hostable package under MIT, or installed into your own
