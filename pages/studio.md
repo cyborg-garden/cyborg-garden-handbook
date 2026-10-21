@@ -2,7 +2,7 @@
 title: "The studio"
 order: 7
 summary: "Games, stories and live art. The made things, as opposed to the found ones."
-updated: 2026-10-19
+updated: 2026-10-21
 ---
 # The studio
 
@@ -31,8 +31,8 @@ later took.
 
 ## Live art
 
-[Designing Touch](https://github.com/cyborg-garden/designing-touch) is
-algorithmic live art written so an agent can perform it as well as a person. It
+[LightEater](https://github.com/cyborg-garden/lighteater), formerly Designing
+Touch, is algorithmic live art written so an agent can perform it as well as a person. It
 sits in the studio rather than in tooling because the output is a performance,
 not a capability.
 
@@ -53,7 +53,7 @@ in a story first.
 
 | Repository | Why it exists | Start here | Last touched |
 |---|---|---|---|
-| [cyborg-garden/designing-touch](https://github.com/cyborg-garden/designing-touch) | Live algorithmic art, written so an agent can perform it too. | [README.md](https://github.com/cyborg-garden/designing-touch/blob/main/README.md) | 2026-10-07 |
+| [cyborg-garden/lighteater](https://github.com/cyborg-garden/lighteater) | Live algorithmic art, written so an agent can perform it too. | [README.md](https://github.com/cyborg-garden/lighteater/blob/main/README.md) | 2026-10-07 |
 
 ---
 

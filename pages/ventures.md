@@ -2,7 +2,7 @@
 title: "Ventures"
 order: 5
 summary: "The commercial side of the garden: the ventures that earn, and the open cores they publish."
-updated: 2026-10-19
+updated: 2026-10-21
 ---
 # Ventures
 
@@ -48,7 +48,7 @@ hosted service is the paid part.
 
 | Repository | Why it exists | Start here | Last touched |
 |---|---|---|---|
-| [cyborg-garden/agentic-startup-generalist](https://github.com/cyborg-garden/agentic-startup-generalist) | The open core of the founder-support work, MIT licensed. | [README.md](https://github.com/cyborg-garden/agentic-startup-generalist/blob/main/README.md) | 2026-08-05 |
+| [cyborg-garden/agentic-startup-generalist](https://github.com/cyborg-garden/agentic-startup-generalist) | The open core of the founder-support work, MIT licensed. | [README.md](https://github.com/cyborg-garden/agentic-startup-generalist/blob/main/README.md) | 2026-10-20 |
 | [NimbleCoAI/brandkit](https://github.com/NimbleCoAI/brandkit) | Logos, marks and type for NimbleCo, kept public so nobody has to ask for a file. | [README.md](https://github.com/NimbleCoAI/brandkit/blob/main/README.md) | 2026-05-27 |
 
 ---

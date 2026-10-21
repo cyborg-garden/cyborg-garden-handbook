@@ -20,9 +20,11 @@ part founders pay for.
 
 ## The gate
 
-The repositories that carry the garden's agents into the Commons each run a gate:
-a script called `check_sanitization.py`, usually under `scripts/`, usually with a
-`sanitize.config.json` beside it that names the folders that matter most. It
+The repositories that carry the garden's agents into the Commons all run the same
+gate: one script, `check_sanitization.py`, kept in
+[Swarm Map](https://github.com/cyborg-garden/swarm-map) and called from each
+repository as a shared workflow. Each repository keeps only its own
+`sanitize.config.json`, which names the folders that matter most. The gate
 has two layers, and both have to pass.
 
 The first layer is pattern matching. It looks for the shapes of secrets and
@@ -66,21 +68,24 @@ pull request touching it. Vera's repository audits the full tree of a release
 candidate before the version tag is cut, because Swarm Map installs agents by tag
 name, and a tag that has been pushed is already published.
 
-## Each repository carries its own copy
+## One gate, pinned by tag
 
-Right now each repository carries its own copy of the gate. Swarm Map, Matilde,
-Vera's repository, the [package
-template](https://github.com/NimbleCoAI/usecase-package-template) and the
-[anti-slop guide](https://github.com/cyborg-garden/anti-slop-core) each have
-their own version, and the copies have drifted apart. They differ in length, in
-which shapes they detect, in their command-line flags, and in how they reach the
-model. The template, for instance, leaves the model layer optional until you add
-a key, because it is meant to be copied by people who have not set one up yet,
-and it tells you the one flag that makes it mandatory once you have.
+There is one copy of the gate, in Swarm Map, released under a version tag
+(`sanitization-gate-v1.0.0` at the time of writing). Matilde, Vera's repository
+and the [package template](https://github.com/NimbleCoAI/usecase-package-template)
+call it at that tag, never at a moving branch, so the workflow and the script it
+runs always come from the same release. Where the garden can enforce it, the
+check is required before anything merges to the default branch. A new version of
+the gate means a new tag, and then a bump to every repository's pin.
 
-Pulling the copies back into one shared gate is planned work. Until then, if you
-are contributing, read the copy in the repository you are working on. Every copy
-accepts `--all` to scan the whole tree. Matilde's
+It used to be different. Each repository carried its own copy, the copies
+drifted, and each one had quietly lost a protection another still had. Pulling
+them into one gate is what fixed that. The
+[anti-slop guide](https://github.com/cyborg-garden/anti-slop-core) is a written
+guide rather than an agent and still carries a copy of its own.
+
+If you are contributing, the gate's own source in Swarm Map is the reference,
+and the script accepts `--all` to scan the whole tree. Matilde's
 [account of the gate](https://github.com/cyborg-garden/Matilde/blob/main/docs/sanitization-gate.md)
 is the clearest written description of how the two layers behave and what to do
 when one of them flags your change.

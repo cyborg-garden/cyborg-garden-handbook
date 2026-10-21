@@ -2,7 +2,7 @@
 title: "Working with the garden on contract"
 order: 10
 summary: "The onboarding packet for contractors: how contracts work, tax forms, fortnightly invoices, access, shipping through the Alembic, handoffs and approvals."
-updated: 2026-10-19
+updated: 2026-10-21
 ---
 # Working with the garden on contract
 
@@ -53,22 +53,12 @@ handle. If you are a US person, expect a 1099-NEC from us early in the new year.
 
 ## Invoicing and getting paid
 
-**Invoice fortnightly.** Each invoice covers two weeks and shows:
+**Invoice fortnightly**, with your agreement number and the dates the invoice
+covers. You will be paid as your contract states.
 
-- your agreement number
-- the dates it covers
-- hours and rate, or the deliverables completed, as your contract defines them
-- the currency and the total due
-
-Invoice in the currency your contract states, unless we have agreed something
-else in writing. We pay from Mercury, the company's bank. Some people are paid
-into a Wise account, and if that suits you better, say so when you send your
-details.
-
-We confirm any new or changed bank details with you directly, by message or a
-call, and never by email reply alone. Invoice fraud usually starts with an email
-asking for payment to go somewhere new. If you ever get one that looks like it
-came from us, assume it did not and check.
+If your bank details change, we confirm the new ones with you directly before
+paying, never by email reply alone. If an email asking for payment to go
+somewhere new ever looks like it came from us, assume it did not and check.
 
 ## What you get access to
 
@@ -81,9 +71,9 @@ You get the access your job needs, and no more.
   get your own login to that one app.
 - **Discord.** The contractor role, which opens the **Greenhouse** (where the
   crew and its agents work) and **#approvals** (see below).
-- **Agents.** Several of the garden's agents sit in the Greenhouse. Mention one
-  by name to ask it something. They only pick up messages that mention them, so a
-  question nobody tags goes unanswered.
+- **An agent to ask.** You can @-mention **nimbleco-hermes** in any Greenhouse or
+  Secret Garden channel you can see. It is allowlisted for the contractor role.
+  It only picks up messages that mention it, so tag it when you want an answer.
 
 ## Shipping work through the Alembic
 
@@ -159,7 +149,7 @@ leak kept quiet is a bad one.
 
 Ask early, and ask in the open where you can. For anything about the work, post
 in the Greenhouse, where someone, human or agent, will usually know. For quick
-lookups, mention an agent. For a question that can wait, write it into your
+lookups, @-mention nimbleco-hermes. For a question that can wait, write it into your
 handoff under its open threads, where it will get picked up. For anything urgent
 or private, message directly.
 

@@ -2,7 +2,7 @@
 title: "The agents of the garden"
 order: 4
 summary: "The agents whose work is public: what each one is for, and where you can meet it."
-updated: 2026-10-19
+updated: 2026-10-21
 ---
 # The agents of the garden
 
