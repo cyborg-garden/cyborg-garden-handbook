@@ -23,8 +23,8 @@ later took.
 
 ## Live art
 
-[Designing Touch](https://github.com/cyborg-garden/designing-touch) is
-algorithmic live art written so an agent can perform it as well as a person. It
+[LightEater](https://github.com/cyborg-garden/lighteater), formerly Designing
+Touch, is algorithmic live art written so an agent can perform it as well as a person. It
 sits in the studio rather than in tooling because the output is a performance,
 not a capability.
 

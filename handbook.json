@@ -77,7 +77,7 @@
       "start_here": "README.md",
       "contribute": "Research methods, positioning tooling, and the stage-honest playbook."
     },
-    "cyborg-garden/designing-touch": {
+    "cyborg-garden/lighteater": {
       "area": "studio",
       "purpose": "Live algorithmic art, written so an agent can perform it too.",
       "start_here": "README.md",
@@ -213,6 +213,14 @@
       "order": 9,
       "summary": "Feeds, issues, pull requests, and what a first contribution here usually looks like.",
       "prose": "contributing.md",
+      "blocks": []
+    },
+    {
+      "slug": "contractors",
+      "title": "Working with the garden on contract",
+      "order": 10,
+      "summary": "The onboarding packet for contractors: how contracts work, tax forms, fortnightly invoices, access, shipping through the Alembic, handoffs and approvals.",
+      "prose": "contractors.md",
       "blocks": []
     }
   ]

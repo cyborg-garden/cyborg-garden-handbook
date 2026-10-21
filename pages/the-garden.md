@@ -2,7 +2,7 @@
 title: "The garden itself"
 order: 2
 summary: "What this place is, who tends it, and the rings that decide how far in a thing sits."
-updated: 2026-10-19
+updated: 2026-10-21
 ---
 # The garden itself
 
