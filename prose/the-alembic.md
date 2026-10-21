@@ -82,7 +82,9 @@ It used to be different. Each repository carried its own copy, the copies
 drifted, and each one had quietly lost a protection another still had. Pulling
 them into one gate is what fixed that. The
 [anti-slop guide](https://github.com/cyborg-garden/anti-slop-core) is a written
-guide rather than an agent and still carries a copy of its own.
+guide rather than an agent. It held an old copy that no workflow ran, and a
+[pull request](https://github.com/cyborg-garden/anti-slop-core/pull/2) to remove
+it is open.
 
 If you are contributing, the gate's own source in Swarm Map is the reference,
 and the script accepts `--all` to scan the whole tree. Matilde's
