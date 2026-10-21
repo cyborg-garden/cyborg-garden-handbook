@@ -82,6 +82,8 @@ page that never contains private material cannot leak it.
   Every public repository, what it is for, and where to start reading it.
 - **[Following along and joining in](./contributing.md)**  
   Feeds, issues, pull requests, and what a first contribution here usually looks like.
+- **[Working with the garden on contract](./contractors.md)**  
+  The onboarding packet for contractors: how contracts work, tax forms, fortnightly invoices, access, shipping through the Alembic, handoffs and approvals.
 
 ---
 
