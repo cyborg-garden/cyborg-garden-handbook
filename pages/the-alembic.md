@@ -2,7 +2,7 @@
 title: "How the Alembic works"
 order: 3
 summary: "The sanitise-and-promote path that moves work from the Secret Garden out to the Commons, and the gate the agent repositories run on every pull request."
-updated: 2026-10-21
+updated: 2026-10-26
 ---
 # How the Alembic works
 
