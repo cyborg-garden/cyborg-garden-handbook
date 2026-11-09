@@ -2,7 +2,7 @@
 title: "Working with the garden on contract"
 order: 10
 summary: "The onboarding packet for contractors: how contracts work, tax forms, fortnightly invoices, access, shipping through the Alembic, handoffs and approvals."
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 # Working with the garden on contract
 

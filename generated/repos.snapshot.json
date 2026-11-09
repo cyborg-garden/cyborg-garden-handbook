@@ -6,7 +6,7 @@
     "max_age_days is how long these visibility answers may be published for. Past",
     "it, compile.mjs refuses to write pages from this file without --allow-stale."
   ],
-  "fetched": "2026-11-02",
+  "fetched": "2026-11-09",
   "max_age_days": 10,
   "repos": {
     "cyborg-garden/swarm-map": {
@@ -15,7 +15,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimbleco.ai",
-      "pushed": "2026-11-02",
+      "pushed": "2026-11-09",
       "readme": "README.md",
       "startHere": "docs/getting-started.md"
     },
@@ -25,7 +25,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimbleco.ai",
-      "pushed": "2026-10-27",
+      "pushed": "2026-11-08",
       "readme": "README.md",
       "startHere": "CONTRIBUTING.md"
     },
@@ -35,7 +35,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimbleco.ai",
-      "pushed": "2026-10-20",
+      "pushed": "2026-11-08",
       "readme": "README.md",
       "startHere": "README.md"
     },
@@ -45,7 +45,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": "https://nimblecoorg.github.io/open-science/",
-      "pushed": "2026-11-01",
+      "pushed": "2026-11-08",
       "readme": "README.md",
       "startHere": "README.md"
     },
@@ -65,7 +65,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": null,
-      "pushed": "2026-10-20",
+      "pushed": "2026-11-08",
       "readme": "README.md",
       "startHere": "README.md"
     },
@@ -85,7 +85,7 @@
       "defaultBranch": "master",
       "license": null,
       "homepage": "https://github.com/jo-inc/camofox-browser#readme",
-      "pushed": "2026-10-22",
+      "pushed": "2026-11-05",
       "readme": "README.md",
       "startHere": "README.md"
     },
@@ -105,7 +105,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": null,
-      "pushed": "2026-06-09",
+      "pushed": "2026-11-05",
       "readme": "README.md",
       "startHere": "README.md"
     },
@@ -125,7 +125,7 @@
       "defaultBranch": "main",
       "license": null,
       "homepage": null,
-      "pushed": "2026-10-20",
+      "pushed": "2026-11-08",
       "readme": "README.md",
       "startHere": "README.md"
     },

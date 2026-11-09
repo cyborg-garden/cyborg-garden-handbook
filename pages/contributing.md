@@ -2,7 +2,7 @@
 title: "Following along and joining in"
 order: 9
 summary: "Feeds, issues, pull requests, and what a first contribution here usually looks like."
-updated: 2026-11-02
+updated: 2026-11-09
 ---
 # Following along and joining in
 
