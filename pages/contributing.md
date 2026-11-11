@@ -2,7 +2,7 @@
 title: "Following along and joining in"
 order: 9
 summary: "Feeds, issues, pull requests, and what a first contribution here usually looks like."
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 # Following along and joining in
 
@@ -18,8 +18,7 @@ There is no newsletter and no signup wall anywhere on the site.
 ## Joining in
 
 The covenant treats contribution to the commons as the highest status available,
-and that is not decoration on a values page. It is how people move inward through
-the rings.
+and it is how people move inward through the rings.
 
 A useful first contribution is usually one of three things. Fix something that is
 wrong, and say plainly what was wrong. Replicate an experiment and report what you

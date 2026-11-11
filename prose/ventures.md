@@ -1,6 +1,5 @@
 The garden pays for itself. Bootstrapping is the first article of the covenant,
-so the commercial work is not a separate company bolted on. It is the part of the
-same crew that invoices.
+so the commercial work is the part of the same crew that invoices.
 
 Three ventures are running: NimbleCo, Hosaka FM, and DigiCryptids, whose alien
 anthropologists study the irrationality of human finance behaviour.
@@ -13,9 +12,8 @@ who will still be running them after the engagement ends. That last part is the
 difference from most agent consultancies: the deliverable includes operators who
 can keep it alive.
 
-Client work is not described here, and will not be. What is public is the
-practice itself, the brand assets, and the parts of the stack that got handed
-into the commons.
+Client work stays private. The practice itself, the brand assets, and the parts
+of the stack handed into the commons are public.
 
 ## Hosaka FM
 

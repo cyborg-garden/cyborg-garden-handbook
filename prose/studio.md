@@ -24,9 +24,7 @@ later took.
 ## Live art
 
 [LightEater](https://github.com/cyborg-garden/lighteater), formerly Designing
-Touch, is algorithmic live art written so an agent can perform it as well as a person. It
-sits in the studio rather than in tooling because the output is a performance,
-not a capability.
+Touch, is algorithmic live art written so an agent can perform it as well as a person.
 
 ## Why a studio at all
 
