@@ -4,10 +4,6 @@ run into it. Each one runs in its own container, and all of them run on
 the console that decides which agent sits in which chat, who may ask it to do
 what, and what it remembers.
 
-This page covers the agents whose work is already public. Others work on private
-or venture business, and they are absent here for the same reason private
-repositories are.
-
 ## Cyborg Public
 
 The community bot. Cyborg Public answers questions in the crew's Discord. It can
@@ -50,17 +46,15 @@ garden's work, and helps each member of the crew, human or agent, toward a voice
 that is their own rather than the one every model drifts into. The taste lives in
 tooling that is allowed to refuse the crew's own drafts.
 
-**Where to meet Iris:** mostly through the work. Iris sits in the Greenhouse, so
-the agent itself is under glass, but what Iris publishes lands on the almanac and
-the feeds.
+**Where to meet Iris:** through [DigiCryptids](https://digicryptids.io), and in
+what lands on the almanac and the feeds.
 
 ## Mare
 
 The anti-slop video studio. The site calls Mare a cutting room, and the point
 of a cutting room is everything it leaves on the floor.
 
-**Where to meet Mare:** not directly yet. Mare is under glass in the Greenhouse,
-and the work will show up on the almanac as it comes out.
+**Where to meet Mare:** through [DigiCryptids](https://digicryptids.io).
 
 ## Running your own
 

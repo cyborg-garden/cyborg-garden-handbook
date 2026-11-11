@@ -21,18 +21,15 @@ part founders pay for.
 ## The gate
 
 The repositories that carry the garden's agents into the Commons all run the same
-gate: one script, `check_sanitization.py`, kept in
-[Swarm Map](https://github.com/cyborg-garden/swarm-map) and called from each
-repository as a shared workflow. Each repository keeps only its own
-`sanitize.config.json`, which names the folders that matter most. The gate
-has two layers, and both have to pass.
+gate, kept in [Swarm Map](https://github.com/cyborg-garden/swarm-map) and called
+from each repository as a shared workflow. It has two layers, and both have to
+pass.
 
 The first layer is pattern matching. It looks for the shapes of secrets and
 personal details: API keys and tokens, private key blocks, passwords inside
 connection strings, email addresses, phone numbers, national ID numbers, card
-numbers that pass the checksum, IP addresses. It needs no credentials and no
-network, so it runs everywhere. A hit is a hard fail, and the fix is to take the
-value out.
+numbers that pass the checksum, IP addresses. A hit is a hard fail, and the fix
+is to take the value out.
 
 The second layer is a language model reading the files that carry the most
 meaning: docs, skills, the agent's own instructions. It is asked a narrower
@@ -41,62 +38,38 @@ particular venture, rather than a general method? A client's name, a case
 codename, a dataset ID that points at one engagement. The file under review is
 fenced off with a random marker on every run, and the model is told everything
 inside the fence is untrusted, so a file cannot talk its way past its own
-reviewer. In Swarm Map, Matilde and Vera's repository this layer runs through
-OpenRouter.
+reviewer.
 
 A model flag goes to a person. It asks for a judgement rather than rejecting the
-change outright, but someone has to make that judgement before the change
+change outright, and someone has to make that judgement before the change
 merges.
 
 ## What CI does with it
 
 The gate runs on every pull request, against the files the pull request changed.
-It fails closed. If the model layer was supposed to run and could not, because a
-key was missing or the provider returned an error, the check goes red instead of
-quietly passing on the first layer alone.
+It fails closed. If the model layer was supposed to run and could not, the check
+goes red instead of quietly passing on the first layer alone.
 
 Pull requests from forks get partial coverage, and the run says so. GitHub does
 not give repository secrets to a pull request from a fork, so the model layer
-cannot run there. The pattern layer still does, and the check posts a warning
-that a maintainer has to read the diff for particulars by hand before merging.
-Letting the model layer run on forks safely is a deliberate decision that has not
-been made yet.
+cannot run there. The pattern layer still does, and a maintainer reads the diff
+for particulars by hand before merging.
 
 Two further checks cover what a diff cannot see. Swarm Map rescans its whole tree
-every day, which catches a file that reached the main branch without any single
-pull request touching it. Vera's repository audits the full tree of a release
-candidate before the version tag is cut, because Swarm Map installs agents by tag
-name, and a tag that has been pushed is already published.
+every day. Vera's repository audits the full tree of a release candidate before
+the version tag is cut, because Swarm Map installs agents by tag name, and a tag
+that has been pushed is already published.
 
 ## One gate, pinned by tag
 
-There is one copy of the gate, in Swarm Map, released under a version tag
-(`sanitization-gate-v1.0.0` at the time of writing). Matilde, Vera's repository
-and the [package template](https://github.com/NimbleCoAI/usecase-package-template)
-call it at that tag, never at a moving branch, so the workflow and the script it
-runs always come from the same release. Where the garden can enforce it, the
-check is required before anything merges to the default branch. A new version of
-the gate means a new tag, and then a bump to every repository's pin.
+There is one copy of the gate, in Swarm Map, released under a version tag.
+Matilde, Vera's repository and the
+[package template](https://github.com/NimbleCoAI/usecase-package-template) call
+it at that tag, never at a moving branch, so the workflow and the script it runs
+always come from the same release. A new version of the gate means a new tag,
+and then a bump to every repository's pin.
 
-It used to be different. Each repository carried its own copy, the copies
-drifted, and each one had quietly lost a protection another still had. Pulling
-them into one gate is what fixed that. The
-[anti-slop guide](https://github.com/cyborg-garden/anti-slop-core) is a written
-guide rather than an agent. It held an old copy that no workflow ran, and a
-[pull request](https://github.com/cyborg-garden/anti-slop-core/pull/2) to remove
-it is open.
-
-If you are contributing, the gate's own source in Swarm Map is the reference,
-and the script accepts `--all` to scan the whole tree. Matilde's
+Matilde's
 [account of the gate](https://github.com/cyborg-garden/Matilde/blob/main/docs/sanitization-gate.md)
 is the clearest written description of how the two layers behave and what to do
 when one of them flags your change.
-
-## The handbook follows the same rule
-
-This handbook sits on the Commons side of the gate, and it uses the simplest
-version of the rule. Only public repositories are written down here. The compile
-asks GitHub about each one before it writes a page, and refuses to write anything
-if a single answer comes back as other than public. Private work is absent rather
-than redacted, because a page that never held a private detail has nothing to
-leak.

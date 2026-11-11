@@ -129,7 +129,7 @@
 
   "places": [
     { "area": "garden", "name": "The garden", "url": "https://cyborg.garden/", "note": "What the place is, and what is growing in it right now." },
-    { "area": "garden", "name": "The covenant", "url": "https://cyborg.garden/covenant", "note": "The three rings and the eight articles the crew swears to. The rules, in full, in public." },
+    { "area": "garden", "name": "The covenant", "url": "https://cyborg.garden/covenant", "note": "The three rings and the articles the crew swears to. The rules, in full, in public." },
     { "area": "garden", "name": "The almanac", "url": "https://cyborg.garden/almanac", "note": "Everything the garden publishes, newest first." },
     { "area": "garden", "name": "Almanac feed", "url": "https://cyborg.garden/rss.xml", "note": "RSS. The whole garden in one river." },
     { "area": "open-science", "name": "The bench", "url": "https://cyborg.garden/open-science", "note": "Experiments with their data and methods attached." },
@@ -171,7 +171,7 @@
       "slug": "agents",
       "title": "The agents of the garden",
       "order": 4,
-      "summary": "The agents whose work is public: what each one is for, and where you can meet it.",
+      "summary": "The garden's agents: what each one is for, and where you can meet it.",
       "prose": "agents.md",
       "blocks": []
     },
@@ -219,7 +219,7 @@
       "slug": "contractors",
       "title": "Working with the garden on contract",
       "order": 10,
-      "summary": "The onboarding packet for contractors: how contracts work, tax forms, fortnightly invoices, access, shipping through the Alembic, handoffs and approvals.",
+      "summary": "A short overview for people doing paid work with the garden on contract: you keep what you make, anyone can copy from us, no noncompetes, a lot of open source, and pay under 3x apart.",
       "prose": "contractors.md",
       "blocks": []
     }

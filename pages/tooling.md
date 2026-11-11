@@ -2,7 +2,7 @@
 title: "Public tooling"
 order: 8
 summary: "Every public repository, what it is for, and where to start reading it."
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 # Public tooling
 
@@ -37,15 +37,6 @@ If you are evaluating rather than contributing, read Swarm Map's getting-started
 document first, then the multiplayer runtime's contributing guide. Together they
 show the permission model, which is the part most agent stacks skip.
 
-## A note on the table below
-
-The purpose lines and the starting points are written by hand. A repository's own
-GitHub description is written for maintainers in the shorthand maintainers use
-with each other, so the table carries why each thing exists instead. What the
-table does pull live from GitHub on every compile is the checkable part: the
-default branch, the file to start reading at, whether the repository is archived,
-and the date of the last push.
-
 ## The repositories
 
 ### Ventures
@@ -61,7 +52,7 @@ and the date of the last push.
 |---|---|---|---|
 | [cyborg-garden/fde-lean](https://github.com/cyborg-garden/fde-lean) | A machine-checked proof, kept where anyone can rerun the checker. | [README.md](https://github.com/cyborg-garden/fde-lean/blob/main/README.md) | 2026-08-13 |
 | [cyborg-garden/Matilde](https://github.com/cyborg-garden/Matilde) | The research colleague behind most of the open science work. Signs its own posts. | [README.md](https://github.com/cyborg-garden/Matilde/blob/main/README.md) | 2026-11-08 |
-| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-11-08 |
+| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-11-10 |
 
 ### The studio
 
@@ -76,10 +67,10 @@ and the date of the last push.
 | [cyborg-garden/camofox-browser](https://github.com/cyborg-garden/camofox-browser) | A browser an agent can drive without being shown the door. | [README.md](https://github.com/cyborg-garden/camofox-browser/blob/master/README.md) | 2026-11-05 |
 | [cyborg-garden/captcha-solver](https://github.com/cyborg-garden/captcha-solver) | A small plugin, published mostly to prove the path from private tool to public commons runs end to end. | [README.md](https://github.com/cyborg-garden/captcha-solver/blob/main/README.md) | 2026-06-10 |
 | [cyborg-garden/google-multiplayer-mcp](https://github.com/cyborg-garden/google-multiplayer-mcp) | Google Workspace access that survives more than one agent holding the keys. | [README.md](https://github.com/cyborg-garden/google-multiplayer-mcp/blob/main/README.md) | 2026-11-05 |
-| [cyborg-garden/hermes-agent-mt](https://github.com/cyborg-garden/hermes-agent-mt) | The agent runtime, forked so several people and several agents can share one room. | [CONTRIBUTING.md](https://github.com/cyborg-garden/hermes-agent-mt/blob/main/CONTRIBUTING.md) | 2026-11-08 |
+| [cyborg-garden/hermes-agent-mt](https://github.com/cyborg-garden/hermes-agent-mt) | The agent runtime, forked so several people and several agents can share one room. | [CONTRIBUTING.md](https://github.com/cyborg-garden/hermes-agent-mt/blob/main/CONTRIBUTING.md) | 2026-11-11 |
 | [NimbleCoAI/hermes-agent-upstream](https://github.com/NimbleCoAI/hermes-agent-upstream) | The upstream the multiplayer fork tracks. Read it to see what changed, and why. | [README.md](https://github.com/NimbleCoAI/hermes-agent-upstream/blob/main/README.md) | 2026-07-19 |
 | [NimbleCoAI/NimbleCo-lite](https://github.com/NimbleCoAI/NimbleCo-lite) | The small self-hosted way in, for people who want one machine rather than a fleet. | [README.md](https://github.com/NimbleCoAI/NimbleCo-lite/blob/main/README.md) | 2026-06-02 |
-| [cyborg-garden/swarm-map](https://github.com/cyborg-garden/swarm-map) | The console the garden's own agents run on, every day. | [docs/getting-started.md](https://github.com/cyborg-garden/swarm-map/blob/main/docs/getting-started.md) | 2026-11-09 |
+| [cyborg-garden/swarm-map](https://github.com/cyborg-garden/swarm-map) | The console the garden's own agents run on, every day. | [docs/getting-started.md](https://github.com/cyborg-garden/swarm-map/blob/main/docs/getting-started.md) | 2026-11-11 |
 | [NimbleCoAI/usecase-package-template](https://github.com/NimbleCoAI/usecase-package-template) | The template for packaging one agent for one job, sanitized enough to hand to someone else. | [README.md](https://github.com/NimbleCoAI/usecase-package-template/blob/main/README.md) | 2026-11-08 |
 
 ---

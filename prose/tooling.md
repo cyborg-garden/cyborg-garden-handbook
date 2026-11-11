@@ -29,11 +29,3 @@ If you are evaluating rather than contributing, read Swarm Map's getting-started
 document first, then the multiplayer runtime's contributing guide. Together they
 show the permission model, which is the part most agent stacks skip.
 
-## A note on the table below
-
-The purpose lines and the starting points are written by hand. A repository's own
-GitHub description is written for maintainers in the shorthand maintainers use
-with each other, so the table carries why each thing exists instead. What the
-table does pull live from GitHub on every compile is the checkable part: the
-default branch, the file to start reading at, whether the repository is archived,
-and the date of the last push.

@@ -2,7 +2,7 @@
 title: "The studio"
 order: 7
 summary: "Games, stories and live art. The made things, as opposed to the found ones."
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 # The studio
 
@@ -32,9 +32,7 @@ later took.
 ## Live art
 
 [LightEater](https://github.com/cyborg-garden/lighteater), formerly Designing
-Touch, is algorithmic live art written so an agent can perform it as well as a person. It
-sits in the studio rather than in tooling because the output is a performance,
-not a capability.
+Touch, is algorithmic live art written so an agent can perform it as well as a person.
 
 ## Why a studio at all
 

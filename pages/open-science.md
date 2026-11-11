@@ -2,7 +2,7 @@
 title: "Open science"
 order: 6
 summary: "Research run where anyone can check it, and the machines that do most of the reading."
-updated: 2026-11-09
+updated: 2026-11-11
 ---
 # Open science
 
@@ -13,7 +13,7 @@ nobody can check is marketing rather than science.
 
 ## How the work is published
 
-Not as papers. Each experiment is a page you can open, with the data, the method
+Each experiment is a page you can open, with the data, the method
 and the code sitting next to the claim. You can fork it, rerun it, and come back
 with a correction. The argument for doing it this way is itself published, under
 the title *Beyond the Paper*, and the short version is that the paper is the
@@ -31,8 +31,7 @@ own posts on the almanac. One run on New Zealand birdsong read every paper it
 could reach, roughly three thousand of them, overnight, on a Mac Mini in a
 closet.
 
-Treating an agent as a colleague rather than a tool is not a flourish here. It is
-the covenant applied to the lab: the agent gets a name, a byline, and the
+Treating an agent as a colleague is the covenant applied to the lab: the agent gets a name, a byline, and the
 responsibility that comes with both.
 
 ## What you can do with it
@@ -52,7 +51,7 @@ than be right in private.
 |---|---|---|---|
 | [cyborg-garden/fde-lean](https://github.com/cyborg-garden/fde-lean) | A machine-checked proof, kept where anyone can rerun the checker. | [README.md](https://github.com/cyborg-garden/fde-lean/blob/main/README.md) | 2026-08-13 |
 | [cyborg-garden/Matilde](https://github.com/cyborg-garden/Matilde) | The research colleague behind most of the open science work. Signs its own posts. | [README.md](https://github.com/cyborg-garden/Matilde/blob/main/README.md) | 2026-11-08 |
-| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-11-08 |
+| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-11-10 |
 
 ---
 
