@@ -72,7 +72,7 @@ If you just want to read, subscribe to
 - **[Following along and joining in](./contributing.md)**  
   Feeds, issues, pull requests, and what a first contribution here usually looks like.
 - **[Working with the garden on contract](./contractors.md)**  
-  A short overview for people doing paid work with the garden on contract: you stay independent, you can copy from us, and we do a lot of open source.
+  A short overview for people doing paid work with the garden on contract: you keep what you make, anyone can copy from us, no noncompetes, a lot of open source, and pay under 3x apart.
 
 ---
 

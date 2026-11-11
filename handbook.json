@@ -219,7 +219,7 @@
       "slug": "contractors",
       "title": "Working with the garden on contract",
       "order": 10,
-      "summary": "A short overview for people doing paid work with the garden on contract: you stay independent, you can copy from us, and we do a lot of open source.",
+      "summary": "A short overview for people doing paid work with the garden on contract: you keep what you make, anyone can copy from us, no noncompetes, a lot of open source, and pay under 3x apart.",
       "prose": "contractors.md",
       "blocks": []
     }
