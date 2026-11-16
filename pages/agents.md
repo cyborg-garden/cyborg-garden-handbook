@@ -2,7 +2,7 @@
 title: "The agents of the garden"
 order: 4
 summary: "The garden's agents: what each one is for, and where you can meet it."
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 # The agents of the garden
 
