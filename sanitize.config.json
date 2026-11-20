@@ -1,0 +1,33 @@
+{
+  "$comment": "Sanitization gate config for cyborg-garden-handbook. The gate itself lives in cyborg-garden/swarm-map (docs/sanitization-gate.md); this file only says what a particular means here.",
+  "package_name": "cyborg-garden-handbook",
+  "package_kind": "public handbook of the organisation, compiled from public sources",
+  "sensitive_prefixes": [
+    "pages/",
+    "prose/",
+    "generated/"
+  ],
+  "$comment_prefixes": "pages/ and prose/ are the handbook text; generated/ is the repo snapshot it is checked against. Top-level *.md are always included.",
+  "semantic": {
+    "domain_noun": "private person, contract or internal matter",
+    "flag_examples": [
+      "pay rates, contract terms, invoices or tax details of a named person",
+      "internal-only plans, finances, customer names or private repositories",
+      "a contractor's or member's private contact details or legal name where only a public handle is used elsewhere",
+      "contact details of a private individual: personal email, phone number, home address, messaging handle or account ID",
+      "credentials, tokens, internal hostnames, server addresses or chat/group IDs of a real deployment"
+    ],
+    "do_not_flag_examples": [
+      "the publishing organisation and its public projects: Cyborg Garden / cyborg-garden / cyborg.garden, the former names NimbleCo / NimbleCoAI / NimbleCoOrg / nimbleco.ai, this repo's own name and GitHub URLs",
+      "public repositories, public team roles and public handles of people who are openly part of the organisation",
+      "the organisation's published practices and policies",
+      "generic tool, API, library, model, provider and standard names, and public reference material",
+      "clearly fictional placeholders (Subject A, <case>, example.com, <host>)"
+    ],
+    "model": "moonshotai/kimi-k3"
+  },
+  "deterministic": {
+    "enabled": true,
+    "allow_substrings": []
+  }
+}
