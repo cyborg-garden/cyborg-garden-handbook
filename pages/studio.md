@@ -2,7 +2,7 @@
 title: "The studio"
 order: 7
 summary: "Games, stories and live art. The made things, as opposed to the found ones."
-updated: 2026-11-16
+updated: 2026-11-23
 ---
 # The studio
 
