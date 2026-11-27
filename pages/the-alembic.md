@@ -2,7 +2,7 @@
 title: "How the Alembic works"
 order: 3
 summary: "The sanitise-and-promote path that moves work from the Secret Garden out to the Commons, and the gate the agent repositories run on every pull request."
-updated: 2026-11-23
+updated: 2026-11-27
 ---
 # How the Alembic works
 
@@ -72,7 +72,7 @@ that has been pushed is already published.
 
 There is one copy of the gate, in Swarm Map, released under a version tag.
 Matilde, Vera's repository and the
-[package template](https://github.com/NimbleCoAI/usecase-package-template) call
+[package template](https://github.com/cyborg-garden/usecase-package-template) call
 it at that tag, never at a moving branch, so the workflow and the script it runs
 always come from the same release. A new version of the gate means a new tag,
 and then a bump to every repository's pin.

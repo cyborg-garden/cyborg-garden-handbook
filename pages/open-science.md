@@ -2,7 +2,7 @@
 title: "Open science"
 order: 6
 summary: "Research run where anyone can check it, and the machines that do most of the reading."
-updated: 2026-11-23
+updated: 2026-11-27
 ---
 # Open science
 
@@ -49,9 +49,9 @@ than be right in private.
 
 | Repository | Why it exists | Start here | Last touched |
 |---|---|---|---|
-| [cyborg-garden/fde-lean](https://github.com/cyborg-garden/fde-lean) | A machine-checked proof, kept where anyone can rerun the checker. | [README.md](https://github.com/cyborg-garden/fde-lean/blob/main/README.md) | 2026-08-13 |
-| [cyborg-garden/Matilde](https://github.com/cyborg-garden/Matilde) | The research colleague behind most of the open science work. Signs its own posts. | [README.md](https://github.com/cyborg-garden/Matilde/blob/main/README.md) | 2026-11-08 |
-| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-11-22 |
+| [cyborg-garden/fde-lean](https://github.com/cyborg-garden/fde-lean) | A machine-checked proof, kept where anyone can rerun the checker. | [README.md](https://github.com/cyborg-garden/fde-lean/blob/main/README.md) | 2026-11-27 |
+| [cyborg-garden/Matilde](https://github.com/cyborg-garden/Matilde) | The research colleague behind most of the open science work. Signs its own posts. | [README.md](https://github.com/cyborg-garden/Matilde/blob/main/README.md) | 2026-11-27 |
+| [cyborg-garden/open-science](https://github.com/cyborg-garden/open-science) | The experiments themselves, each one a page you can open, check and fork. | [README.md](https://github.com/cyborg-garden/open-science/blob/main/README.md) | 2026-11-27 |
 
 ---
 

@@ -101,25 +101,25 @@
       "start_here": "README.md",
       "contribute": "Scope handling and per-agent identity."
     },
-    "NimbleCoAI/hermes-agent-upstream": {
+    "cyborg-garden/hermes-agent-upstream": {
       "area": "tooling",
       "purpose": "The upstream the multiplayer fork tracks. Read it to see what changed, and why.",
       "start_here": "README.md",
       "contribute": "Send changes upstream where they belong upstream."
     },
-    "NimbleCoAI/usecase-package-template": {
+    "cyborg-garden/usecase-package-template": {
       "area": "tooling",
       "purpose": "The template for packaging one agent for one job, sanitized enough to hand to someone else.",
       "start_here": "README.md",
       "contribute": "Sharper defaults, and examples of packages that worked."
     },
-    "NimbleCoAI/NimbleCo-lite": {
+    "cyborg-garden/NimbleCo-lite": {
       "area": "tooling",
       "purpose": "The small self-hosted way in, for people who want one machine rather than a fleet.",
       "start_here": "README.md",
       "contribute": "Install paths and first-run friction."
     },
-    "NimbleCoAI/brandkit": {
+    "cyborg-garden/brandkit": {
       "area": "ventures",
       "purpose": "Logos, marks and type for NimbleCo, kept public so nobody has to ask for a file.",
       "start_here": "README.md",
