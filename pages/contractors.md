@@ -2,7 +2,7 @@
 title: "Working with the garden on contract"
 order: 10
 summary: "A short overview for people doing paid work with the garden on contract: you keep what you make, anyone can copy from us, no noncompetes, a lot of open source, and pay under 3x apart."
-updated: 2026-11-23
+updated: 2026-11-27
 ---
 # Working with the garden on contract
 

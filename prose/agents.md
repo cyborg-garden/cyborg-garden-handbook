@@ -61,7 +61,7 @@ of a cutting room is everything it leaves on the floor.
 None of this needs the garden's hardware. The runtime is
 [public](https://github.com/cyborg-garden/hermes-agent-mt), Swarm Map is public,
 and Matilde and Vera install from its registry. The
-[package template](https://github.com/NimbleCoAI/usecase-package-template) is the
+[package template](https://github.com/cyborg-garden/usecase-package-template) is the
 starting point for packaging an agent of your own, and the
 [Alembic](./the-alembic.md) explains how an agent built in private becomes one
 anyone can install.
